@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Typed from 'typed.js';
+
+
 
 const Data = () => {
+      useEffect(() => {
+        // Options for Typed.js
+        const options = {
+          strings: ['FullStack Developer'],
+          typeSpeed: 100,
+          backSpeed: 40,
+          loop: true,
+        };
+    
+        // Initialize Typed.js
+        const typed = new Typed('#typed-text', options);
+    
+        // Cleanup on component unmount
+        return () => {
+          typed.destroy();
+        };
+      }, []);
   return (
   <div className="home__data">
     <h1 className="home__title">
@@ -56,8 +76,7 @@ const Data = () => {
      </svg>
     </h1>
 
-     <h3 className="home__subtitle">
-        FullStack Developer
+     <h3 className="home__subtitle" id='typed-text'>
      </h3>
      <p className="home__description">MEARN stack developer With expertise in MongoDB, Express.js, Angular,React and Node.js.</p>
      <a href="#contact" className="button button--flex">

@@ -14,6 +14,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+      const name = form.current['name'].value.trim();
+  const email = form.current['email'].value.trim();
+  const message = form.current['message'].value.trim();
+
+  if (!name || !email || !message) {
+    toast.error('Please fill in all fields!');
+    return;
+  }
+
 
     emailjs
       .sendForm(import.meta.env.VITE_EMAIL_JS_SERVICE_ID, import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID, form.current, {
@@ -35,7 +44,7 @@ const Contact = () => {
   return (
    <section className="contact section" id="contact">
      <h2 className="section__title">Get in touch</h2>
-    <span className="section__subtitle">Contact Me</span>
+    <span className="section__subtitle"> Feel free to contact me using your preffered medium.</span>
 
     <div className="contact__container container grid">
         <div className="contact__content">
@@ -51,19 +60,19 @@ const Contact = () => {
                     <MdWhatsapp className="contact__card-icon"></MdWhatsapp>
                     <h3 className="contact__card-title">Whatsapp</h3>
                     <span className="contact__card-data">9746779218</span>
-                    <a href="https://api.whatsapp.com/send?phone=9746779218&text=Hello." target="_blank" className="contact__button">Write me  <i class='bxr  bx-arrow-right-stroke'  ></i>  </a>                    
+                    <a href="https://api.whatsapp.com/send?phone=9746779218&text=Hello." target="_blank" className="contact__button"> <i class='bxr  bx-arrow-right-stroke' style={{fontSize:'25px'}}  ></i>  </a>                    
                 </div>
                 <div className="contact__card">
-                    <i className="bx bx-mail-send contact__card-icon"></i>
-                    <h3 className="contact__card-title">Messenger</h3>
-                    <span className="contact__card-data">H0adasdf</span>
-                    <a href="mailto:H0qK7@example.com" className="contact__button">Write me  <i class='bxr  bx-arrow-right-stroke'  ></i>  </a>                    
+      <i class="uil uil-linkedin" style={{fontSize:'25px'}}></i>
+                    <h3 className="contact__card-title">LinkedIn</h3>
+                    <span className="contact__card-data">Akash es</span>
+                    <a href="https://www.linkedin.com/in/akash-es/" target="_blank" className="contact__button">  <i class='bxr  bx-arrow-right-stroke' style={{fontSize:'25px'}} ></i>  </a>                    
                 </div>
             </div>
            
         </div>
         <div className="contact__content">
-            <h3 className="contact__title">Write me your project</h3>
+            <h3 className="contact__title">Write me your Thoughts</h3>
             <form ref={form}  className="contact__form"  onSubmit={sendEmail} >
                 <div className="contact__form-div">
                     <label  className="contact__form-tag">Name</label>
@@ -71,11 +80,11 @@ const Contact = () => {
                 </div>
                 <div className="contact__form-div">
                     <label className="contact__form-tag">Mail</label>
-                    <input type="email" className="contact__form-input" placeholder="Insert your email" />
+                    <input type="email" name='email' className="contact__form-input" placeholder="Insert your email" />
                 </div>
                 <div className="contact__form-div contact__form-area">
                     <label className="contact__form-tag">Message</label>
-                    <textarea name="message" id="" cols="30" rows="10" className="contact__form-input" placeholder="Write your project"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" className="contact__form-input" placeholder="write anything!!"></textarea>
                 </div>
 
                    <button type='submit'  className="button button--flex">

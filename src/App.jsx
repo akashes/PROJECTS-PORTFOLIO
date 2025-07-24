@@ -32,7 +32,6 @@ useEffect(()=>{
    <Services/>
    <Qualification/>
    <Work/>
-   <Testimonials/>
    <Contact/>
    
    </main>
