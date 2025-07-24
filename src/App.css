@@ -53,6 +53,36 @@
 --z-modal: 1000;
 }
 
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: hsl(var(--hue), var(--sat), 95%);
+    --text-color: hsl(var(--hue), var(--sat), 75%);
+    --text-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --body-color: hsl(var(--hue), var(--sat), 10%);
+    --container-color: hsl(var(--hue), var(--sat), 15%);
+  }
+} */
+/* 
+html.dark{
+    --title-color: hsl(var(--hue), var(--sat), 95%);
+    --text-color: hsl(var(--hue), var(--sat), 75%);
+    --text-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --body-color: hsl(var(--hue), var(--sat), 10%);
+    --container-color: hsl(var(--hue), var(--sat), 15%);
+  
+} */
+
+[data-theme='dark'] {
+  --title-color: hsl(var(--hue), var(--sat), 95%);
+  --text-color: hsl(var(--hue), var(--sat), 75%);
+  --text-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: hsl(var(--hue), var(--sat), 15%);
+}
+
+
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
@@ -157,6 +187,8 @@ img{
   align-items: center;
 }
 
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -175,9 +207,7 @@ img{
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body{
-    
-  }
+  
   .section{
     padding: 2rem 0 4rem;
   }

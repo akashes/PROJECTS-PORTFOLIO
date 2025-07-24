@@ -57,11 +57,12 @@ const Data = () => {
     </h1>
 
      <h3 className="home__subtitle">
-        Frontend Developer
+        FullStack Developer
      </h3>
-     <p className="home__description">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores</p>
+     <p className="home__description">MEARN stack developer With expertise in MongoDB, Express.js, Angular,React and Node.js.</p>
      <a href="#contact" className="button button--flex">
-        Contact Me &nbsp;  <svg
+        Contact Me &nbsp; 
+         <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

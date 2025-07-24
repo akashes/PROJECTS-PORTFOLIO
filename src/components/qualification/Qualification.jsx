@@ -37,11 +37,11 @@ const Qualification = () => {
                 </div> */}
 
                 <div>
-                    <h3 className="qualification__title">Computer Science</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
+                    <h3 className="qualification__title">BCA</h3>
+                    <span className="qualification__subtitle">SNGM College Thuravoor , Alappuzha</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>
-                        2019-2023
+                        2023
                     </div>
                 </div>
                    <div>
@@ -58,11 +58,11 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                    <h3 className="qualification__title">Computer Science</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
+                    <h3 className="qualification__title">Higher Secondary</h3>
+                    <span className="qualification__subtitle">SNDP School nadakkavu, Thrippunithura</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>
-                        2019-2023
+                        2019
                     </div>
                 </div>
                    {/* <div>
@@ -79,11 +79,11 @@ const Qualification = () => {
                 </div> */}
 
                 <div>
-                    <h3 className="qualification__title">Computer Science</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
+                    <h3 className="qualification__title">High School</h3>
+                    <span className="qualification__subtitle">Mother Theresa School Muhamma,Alappuzha</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>
-                        2019-2023
+                        2017
                     </div>
                 </div>
                    <div>
@@ -92,27 +92,7 @@ const Qualification = () => {
                 </div>
                
             </div>
-            <div className="qualification__data">
-                <div></div>
-                 <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                </div>
-
-                <div>
-                    <h3 className="qualification__title">Computer Science</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
-                    <div className="qualification__calendar">
-                        <i className="uil uil-calendar-alt"></i>
-                        2019-2023
-                    </div>
-                </div>
-                   {/* <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                </div> */}
-               
-            </div>
+          
 
         </div>
         <div 
@@ -120,18 +100,14 @@ const Qualification = () => {
 
         >
             <div className="qualification__data">
-                {/* <div></div>
-                 <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                </div> */}
+             
 
                 <div>
-                    <h3 className="qualification__title">luminar</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
+                    <h3 className="qualification__title">REACT course</h3>
+                    <span className="qualification__subtitle">Luminar Technolab, Kochi</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>
-                        2019-2023
+                        present
                     </div>
                 </div>
                    <div>
@@ -140,27 +116,7 @@ const Qualification = () => {
                 </div>
                
             </div>
-            <div className="qualification__data">
-                <div></div>
-                 <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                </div>
-
-                <div>
-                    <h3 className="qualification__title">luminar</h3>
-                    <span className="qualification__subtitle">National Institute of Technology, Jamshedpur</span>
-                    <div className="qualification__calendar">
-                        <i className="uil uil-calendar-alt"></i>
-                        2019-2023
-                    </div>
-                </div>
-                   {/* <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                </div> */}
-               
-            </div>
+          
        
           
 

@@ -6,10 +6,10 @@ const Info = () => {
     <div className="about__box">
         <i class="bx bx-medal about__icon"></i>
         <h3 className="about__title">
-            Experience
+            Skills
         </h3>
             <span className="about__subtitle">
-                1 Year Working
+                MERN stack
                 
             </span>
     </div>
@@ -29,7 +29,7 @@ const Info = () => {
             Support
         </h3>
             <span className="about__subtitle">
-               Online 24/7
+               Collaborative 
                 
             </span>
     </div>
