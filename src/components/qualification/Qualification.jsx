@@ -80,7 +80,7 @@ const Qualification = () => {
 
                 <div>
                     <h3 className="qualification__title">High School</h3>
-                    <span className="qualification__subtitle">Mother Theresa School Muhamma,Alappuzha</span>
+                    <span className="qualification__subtitle">Mother Theresa School,Alappuzha</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>
                         2017

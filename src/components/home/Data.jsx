@@ -78,7 +78,7 @@ const Data = () => {
 
      <h3 className="home__subtitle" id='typed-text'>
      </h3>
-     <p className="home__description">MEARN stack developer With expertise in MongoDB, Express.js, Angular,React and Node.js.</p>
+     <p className="home__description">MERN stack developer With expertise in React, Express.js, MongoDB and Node.js.</p>
      <a href="#contact" className="button button--flex">
         Contact Me &nbsp; 
          <svg

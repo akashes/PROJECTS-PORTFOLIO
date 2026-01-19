@@ -19,9 +19,15 @@ const Footer = () => {
             </ul>
 
             <div className="footer__social">
-                 <a href="www.linkedin.com/in/akash-es" className="footer__social-link" target='_blank'>
+                <a 
+  href="https://www.linkedin.com/in/akash-es" 
+  className="footer__social-link" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
       <i class="uil uil-linkedin"></i>
-     </a>
+</a>
+
   
     <a href="https://github.com/" className="footer__social-link" target='_blank'>
       <i class="uil uil-github-alt"></i>
